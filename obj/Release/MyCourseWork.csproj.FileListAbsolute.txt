@@ -1,0 +1,15 @@
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Release\MyCourseWork.exe.config
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Release\MyCourseWork.exe
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Release\MyCourseWork.pdb
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.csprojResolveAssemblyReference.cache
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MainWindow.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\Themes\Icons.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\App.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MainWindow.g.cs
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\App.g.cs
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork_MarkupCompile.cache
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.g.resources
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.Properties.Resources.resources
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.csproj.GenerateResource.Cache
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.exe
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Release\MyCourseWork.pdb

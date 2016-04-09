@@ -1,0 +1,96 @@
+﻿<Window x:Class="MyCourseWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="341" Width="525"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="7*"></RowDefinition>
+      <RowDefinition Height="11*"></RowDefinition>
+      <RowDefinition Height="2*"></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <GroupBox Grid.Row="0" Grid.Column="0" Margin="3px">
+      <GroupBox.Header>
+        <Label>Target file</Label>
+      </GroupBox.Header>
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="14*"></ColumnDefinition>
+          <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="25px"></RowDefinition>
+          <RowDefinition Height="25px"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="tbFilePath" Grid.Row="0" Grid.Column="0" Margin="2px"></TextBox>
+        <Button x:Name="btnChooseFile" Grid.Row="0" Grid.Column="1" Margin="2px" Click="OpenFileDialog">
+          <Path Margin="2, 0, 0, 0"  Width="18" Height="15" Stretch="Fill" Fill="{StaticResource FillPath}" Data="{StaticResource folder_openStyle0}" />
+        </Button>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Height="40px">
+          <RadioButton x:Name="rbEncrypt" Margin="5px" IsChecked="false" Checked="checkedEncrypt">
+            <StackPanel x:Name="contentLock" Orientation="Horizontal" Margin="-5,-2,0,0">
+              <Path x:Name="eyeEncrypt" Width="16" Height="16" Margin="5, 0, 3, 0"  Stretch="Fill" Fill="{StaticResource FillPath}" Data="{StaticResource eye_closeStyle0}" />
+              <Label Margin="-7,-2,0,0">Encrypt</Label>
+            </StackPanel>
+          </RadioButton>
+          <RadioButton x:Name="rbDecrypt" Margin="5px" IsChecked="false" Checked="checkedDecrypt">
+            <StackPanel x:Name="contentUnlock"  Orientation="Horizontal" Margin="-5,-2,0,0">
+              <Path x:Name="eyeDecrypt" Width="16" Height="16" Margin="5, 0, 3, 0" Stretch="Fill" Fill="{StaticResource FillPath}" Data="{StaticResource eye_checkStyle0}" />
+              <Label Margin="-7,-2,0,0">Decrypt</Label>
+            </StackPanel>
+          </RadioButton>
+        </StackPanel>
+      </Grid>
+    </GroupBox>
+
+    <GroupBox Grid.Row="1" Grid.Column="0" Margin="3px">
+      <GroupBox.Header>
+        <Label>Settings</Label>
+      </GroupBox.Header>
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="40px"></RowDefinition>
+          <RowDefinition Height="40px"></RowDefinition>
+          <RowDefinition Height="40px"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Vertical">
+          <Label Grid.Row="0" Margin="10, -7, 0, -3">Password:</Label>
+          <PasswordBox x:Name="pbFirst" Grid.Row="0" Margin="10, 0, 10, 0"></PasswordBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+          <Label Grid.Row="0" Margin="10, -7, 0, -3">Confirm Password:</Label>
+          <PasswordBox x:Name="pbSecond" Grid.Row="0" Margin="10, 0, 10, 0"></PasswordBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Vertical">
+          <Label Grid.Row="0" Margin="10, -7, 0, -3">Key File:</Label>
+          <Grid>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="14*"></ColumnDefinition>
+              <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="tbKeyPath" Grid.Column="0" Margin="10, 0, 3, 0" IsEnabled="false"></TextBox>
+            <ToggleButton x:Name="btnChooseKey" Grid.Column="1" Margin="3, 0, 10, 0" Checked="btnChooseKey_Checked" Unchecked="btnChooseKey_Unchecked">
+              <Path Width="14" Height="14" Canvas.Left="16" Canvas.Top="12" Stretch="Fill" Fill="{StaticResource FillPath}" Data="{StaticResource folder_openStyle0}" />
+            </ToggleButton>
+          </Grid>
+        </StackPanel>
+      </Grid>
+    </GroupBox>
+
+    <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="208,0,0,0">
+            <CheckBox x:Name="cbGenerateKey" Margin="10, 5, 0, 0" Width="101" Checked="cbGenerateKey_Checked" Unchecked="cbGenerateKey_Unchecked" IsEnabled="{Binding IsChecked, ElementName=rbEncrypt}">Generate Key</CheckBox>
+            <Button x:Name="btnAction" Margin="-2,1,0,3" Width="75px" Height="26px" Click="StartWork">
+                <StackPanel Orientation="Horizontal" Margin="-3,-2,0,0">
+                    <Path x:Name="actPath" Width="23" Height="23" Margin="5, 1, 3, 0" />
+                    <Label x:Name="actLabel" Margin="-7,-2,0,0"/>
+                </StackPanel>
+            </Button>
+            <CheckBox x:Name="cbErase" Margin="10, 5, 0, 0">Erase Target File</CheckBox>
+    </StackPanel>
+
+  </Grid>
+</Window>

@@ -1,0 +1,45 @@
+C:\Users\Евгения\Desktop\MyCourseWork\bin\Debug\MyCourseWork.exe.config
+C:\Users\Евгения\Desktop\MyCourseWork\bin\Debug\MyCourseWork.exe
+C:\Users\Евгения\Desktop\MyCourseWork\bin\Debug\MyCourseWork.pdb
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.csprojResolveAssemblyReference.cache
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MainWindow.baml
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MainWindow.g.cs
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\App.g.cs
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork_MarkupCompile.cache
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.g.resources
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.Properties.Resources.resources
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.csproj.GenerateResource.Cache
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.exe
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\MyCourseWork.pdb
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\HashPass.baml
+C:\Users\Евгения\Desktop\MyCourseWork\obj\Debug\HashPass.g.cs
+C:\Users\Oren\Desktop\MyCourseWork\bin\Debug\MyCourseWork.exe.config
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.exe
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.pdb
+C:\Users\Oren\Desktop\MyCourseWork\bin\Debug\MyCourseWork.exe
+C:\Users\Oren\Desktop\MyCourseWork\bin\Debug\MyCourseWork.pdb
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.csprojResolveAssemblyReference.cache
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MainWindow.baml
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MainWindow.g.cs
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\App.g.cs
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork_MarkupCompile.cache
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.g.resources
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.Properties.Resources.resources
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\MyCourseWork.csproj.GenerateResource.Cache
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\App.baml
+C:\Users\Oren\Desktop\MyCourseWork\obj\Debug\Themes\Icons.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Debug\MyCourseWork.exe.config
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.exe
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.pdb
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Debug\MyCourseWork.exe
+D:\Универчик\2 курс\1 семестр\MyCourseWork\bin\Debug\MyCourseWork.pdb
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.csprojResolveAssemblyReference.cache
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MainWindow.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\Themes\Icons.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\App.baml
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MainWindow.g.cs
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\App.g.cs
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork_MarkupCompile.cache
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.g.resources
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.Properties.Resources.resources
+D:\Универчик\2 курс\1 семестр\MyCourseWork\obj\Debug\MyCourseWork.csproj.GenerateResource.Cache
